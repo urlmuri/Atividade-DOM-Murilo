@@ -12,3 +12,41 @@ body {
     border-radius: 8px;
     box-shadow: 0 6px 18px rgba(0,0,0,.06);
 }
+
+form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 0;
+    background: #1f2738;
+    color: #FFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #47536b;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 8px 1-px;
+    border-bottom: 1px solid #eee;
+}
