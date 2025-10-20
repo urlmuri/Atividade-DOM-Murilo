@@ -50,3 +50,8 @@ li {
     padding: 8px 1-px;
     border-bottom: 1px solid #eee;
 }
+
+li.completed span {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
